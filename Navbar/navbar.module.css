@@ -1,0 +1,36 @@
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  background-color: #2c272e;
+  top: 0;
+  position: fixed;
+  z-index: 100;
+}
+ul {
+  display: flex;
+  gap: 1vw;
+}
+li {
+  color: white;
+  list-style: none;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.logo_txt {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.row_aligned_flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.column_aligned_flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
