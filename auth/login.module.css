@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    height: 100%;
+    flex: 2;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+.right{
+    background-color: #1e1e1e;
+    height: 100%;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left_card{
+    width: 70%;
+    height: 70%;
+    background-color:#6D9886;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 55px,  
+    rgba(0, 0, 0, 0.09) 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+.right_card{
+    width: 80%;
+    height: 70%;
+    background-color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 55px, 
+    rgba(0, 0, 0, 0.09) 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+.left_card img{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.tag_line{
+    color: #1e1e1e;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right_card form{
+    width: 100%;
+}
+.right_top{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
+
+.right_top button{
+    font-size: 1.2rem;
+    font-family: 'Mukta';
+    color: #ff0000;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login_form_ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    width: 100%;
+    padding: 20px;
+}
+
+.lf_top h2{
+    font-size: 1.4rem;
+    font-family: 'Mukta';
+    color: #1e1e1e;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.lf_middleOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3vh;
+}
+.lf_middleOne input{
+    padding: 10px;
+    width: 350px;
+    height:15px;
+}
+.lf_middleTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:center;
+    width: 100%;
+}
+.lf_middleTwo button{
+    font-size: 1rem;
+    color: #ff0000;
+    letter-spacing: 1px;
+    font-family: 'Mukta';
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.lf_bottom{
+    margin-top: 3vh;
+}
+.lf_bottom .lgin_btn:hover{
+
+    background-color:#6D9886;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.lgin_btn {
+    background-color: #ff0000;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
